@@ -1,0 +1,48 @@
+.bg-album {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3.25rem; 
+  padding-bottom: 4rem; 
+  min-height: 50vh;
+  position: relative;
+}
+
+.text-left {
+  padding-left: 1.25rem; 
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .bg-album {
+    padding-top: 13rem; 
+    padding-bottom: 16rem;
+  }
+
+  .text-left {
+    padding-left: 5rem; 
+  }
+
+  .h1-size {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .h1-size {
+    width: 43.75rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-item {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item {
+    min-width: 100%;
+  }
+}
